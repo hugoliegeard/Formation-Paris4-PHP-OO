@@ -5,7 +5,8 @@ class Classe
 {
     private $nom,
             $capacite,
-            $professeurP;
+            $professeurP,
+            $eleves;
 
     /**
      * Classe constructor.
@@ -18,6 +19,7 @@ class Classe
         $this->nom = $nom;
         $this->capacite = $capacite;
         $this->professeurP = $professeurP;
+        $this->eleves = [];
     }
 
     /**
@@ -66,6 +68,27 @@ class Classe
     public function setProfesseurP($professeurP)
     {
         $this->professeurP = $professeurP;
+    }
+
+    /**
+     * @return array
+     */
+    public function getEleves()
+    {
+        return $this->eleves;
+    }
+
+    /**
+     * @param array $eleves
+     */
+    public function setEleves($eleves)
+    {
+        $this->eleves = $eleves;
+    }
+
+    public function addEleve(Eleve $eleve)
+    {
+        $this->eleves[] = $eleve;
     }
 
 }

@@ -16,6 +16,7 @@ class Ecole
     private $capacite;
     private $type;
     private $directeur;
+    private $classes;
 
     /**
      * Pour permettre maintenant l'attribution de valeurs
@@ -33,6 +34,7 @@ class Ecole
         $this->capacite = $capacite;
         $this->type = $type;
         $this->directeur = $directeur;
+        $this->classes = [];
     }
 
     /*  -- ~ ° ~ --| Getters |-- ~ ° ~ -- */
@@ -57,6 +59,10 @@ class Ecole
         return $this->directeur;
     }
 
+    public function getClasses() {
+        return $this->classes;
+    }
+
     /*  -- ~ ° ~ --| Setters |-- ~ ° ~ -- */
 
     public function setNom($nom) {
@@ -77,6 +83,15 @@ class Ecole
 
     public function setDirecteur($directeur) {
         $this->directeur = $directeur;
+    }
+
+    public function setClasses($classes) {
+        $this->classes = $classes;
+    }
+
+    public function addClasse(Classe $classe)
+    {
+        $this->classes[] = $classe;
     }
 
 } // Fin de la classe Ecole
