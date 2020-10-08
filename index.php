@@ -1,13 +1,26 @@
 <?php
 
 # Importation de notre class Ecole
-require_once 'models/Ecole.php';
+# require_once 'models/Ecole.php';
 
 # Importation de notre class Eleve
-require_once 'models/Eleve.php';
+# require_once 'models/Eleve.php';
 
 # Importation de notre class Classe
-require_once 'models/Classe.php';
+# require_once 'models/Classe.php';
+
+/**
+ * spl_autoload_register permet de faire de
+ * l'autoloading (autochargement de classes).
+ * Plus besoin de faire de require à la main.
+ * -------------------------------------------
+ * Elle est appelée AUTOMATIQUEMENT par PHP
+ * dès qu'on instancie une classe.
+ */
+spl_autoload_register(function( $class ) {
+    # echo 'Chargement de : ' . $class . '<br>';
+    require_once 'models/' . $class . '.php';
+});
 
 /**
  * Création d'une instance de la class Ecole.
@@ -124,46 +137,26 @@ $classes = $ecole->getClasses();
 echo '<ol>';
 /** @var Classe $classe */
 foreach ($classes as $classe) {
+
     # Afficher le nom de la classe
     echo '<li>' . $classe->getNom(). '</li>';
+
     # 2. Récupérer et Afficher la liste des élèves
     $eleves = $classe->getEleves();
     echo '<ul>';
+
     /** @var Eleve $eleve */
     foreach ($eleves as $eleve) {
+
         echo '<li>';
             echo $eleve->getPrenom(). ' ' . $eleve->getNom();
         echo '</li>';
-    }
+
+    } #endforeach eleves
+
     echo '</ul>';
-}
+
+} #endforeach classes
+
 echo '</ol>';
 
-
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
-echo '<br>';
