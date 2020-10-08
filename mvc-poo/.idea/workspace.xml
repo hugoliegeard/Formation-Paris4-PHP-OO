@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="101f223d-155b-4ec0-9117-d45c271e76f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1iacix1kWUSwBd2cgDIL1PGSwxx" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="101f223d-155b-4ec0-9117-d45c271e76f7" name="Default Changelist" comment="" />
+      <created>1602149273344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602149273344</updated>
+      <workItem from="1602149274427" duration="15060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2029" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.inPresentationMode" timestamp="1602161987219">
+      <screen x="1920" y="0" width="1280" height="688" />
+    </state>
+    <state x="2029" y="0" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.inPresentationMode/1920.0.1280.688/0.0.1920.1040@1920.0.1280.688" timestamp="1602161987219" />
+    <state x="2170" y="0" key="NewPhpClassDialog.inPresentationMode" timestamp="1602168083254">
+      <screen x="1920" y="0" width="1280" height="688" />
+    </state>
+    <state x="2170" y="0" key="NewPhpClassDialog.inPresentationMode/1920.0.1280.688/0.0.1920.1040@1920.0.1280.688" timestamp="1602168083254" />
+    <state x="2248" y="215" key="NewPhpFileDialog.inPresentationMode" timestamp="1602163931960">
+      <screen x="1920" y="0" width="1280" height="688" />
+    </state>
+    <state x="2248" y="215" key="NewPhpFileDialog.inPresentationMode/1920.0.1280.688/0.0.1920.1040@1920.0.1280.688" timestamp="1602163931960" />
+    <state x="1920" y="0" key="SettingsEditor.inPresentationMode" timestamp="1602149654371">
+      <screen x="1920" y="0" width="1280" height="688" />
+    </state>
+    <state x="1920" y="0" key="SettingsEditor.inPresentationMode/1920.0.1280.688/0.0.1920.1040@1920.0.1280.688" timestamp="1602149654371" />
+  </component>
+</project>
